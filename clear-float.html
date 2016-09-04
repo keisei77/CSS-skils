@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="magic clear">
+    	<img src="./Harry.jpg" alt="Harry Poter">
+    	<p>Sirius And Harry.</p>
+	</div>
+</body>
+</html>
+<style type="text/css">
+	.magic {
+		background-color: cyan;
+		border: solid 1px yellow;
+	}
+
+	.clear:after {
+		content: "";
+		height: 0;
+		visibility: hidden;
+		display: block;
+		clear: both;
+	}
+
+	.magic img {
+		width: 80%;
+		height: auto;
+		float: left;
+	}
+
+	.magic p {
+		float: right;
+	}
+</style>
